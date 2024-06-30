@@ -1,5 +1,11 @@
+import os, sys
+from os.path import dirname, abspath
+
+sys.path.append(dirname(dirname(dirname(abspath(__file__)))))
+from CommonLibs.tree_node import TreeNode
+from CommonLibs.list_node import ListNode
+
 from code_exercises_easy import *
-from tree_node import TreeNode
 
 
 def test_sum_a_b():
