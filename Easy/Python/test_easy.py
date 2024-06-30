@@ -1,4 +1,4 @@
-from CodeExercisesDCEasy import *
+from code_exercises_easy import *
 from tree_node import TreeNode
 
 
