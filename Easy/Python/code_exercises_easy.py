@@ -2,9 +2,8 @@ import os, sys
 from os.path import dirname, abspath
 
 sys.path.append(dirname(dirname(dirname(abspath(__file__)))))
-from CommonLibs.tree_node import TreeNode
-from CommonLibs.list_node import ListNode
 
+from CommonLibs import ListNode, TreeNode
 import numpy as np
 
 
