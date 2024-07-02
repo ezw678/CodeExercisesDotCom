@@ -7,7 +7,7 @@ from CommonLibs import TreeNode
 from code_exercises_challenging import *
 
 
-def test_findLongestPalindrome():
+def test_find_longest_palindrome():
     assert find_longest_palindrome("abattd") == "aba"
     assert find_longest_palindrome("abc") == "a"
     assert find_longest_palindrome("abcba") == "abcba"
@@ -71,7 +71,7 @@ def test_is_perfect_tree():
     assert is_perfect_tree(root) == False
 
 
-def test__is_complete_tree():
+def test_is_complete_tree():
     root = TreeNode()
     assert is_complete_tree(root) == True
 
