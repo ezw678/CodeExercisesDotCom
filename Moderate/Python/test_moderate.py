@@ -140,11 +140,3 @@ def test_sums_to_target():
     assert sums_to_target([2, 4, 6], 5) == False
     assert sums_to_target([-1, 4, 2, 1], 0) == True
     assert sums_to_target([-1, 4, 2, 1], 1) == True
-
-
-def main():
-    pass
-
-
-if __name__ == "__main__":
-    main()
